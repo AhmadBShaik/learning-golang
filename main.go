@@ -1,11 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func HelloWorld() {
-	fmt.Println("Hello World!")
-}
+	"golang-practice/helloworld"
+)
+
+// custom module is created using ```go mod init ahmadbshaik/golang-practice``` to modularize the code
 
 func main() {
-	HelloWorld()
+	fmt.Println(helloworld.HelloWorld())
 }
