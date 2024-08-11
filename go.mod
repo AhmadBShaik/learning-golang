@@ -1,3 +1,3 @@
-module golang-practice
+module learning-golang
 
 go 1.22.6

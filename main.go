@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"golang-practice/helloworld"
+	"learning-golang/helloworld"
 )
 
 // custom module is created using ```go mod init ahmadbshaik/golang-practice``` to modularize the code
