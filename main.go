@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"learning-golang/controlflow"
 	"learning-golang/helloworld"
 )
 
@@ -10,4 +11,11 @@ import (
 
 func main() {
 	fmt.Println(helloworld.HelloWorld())
+
+	controlflow.ConditionalStatements1()
+	controlflow.ConditionalStatements2()
+
+	controlflow.Loop1()
+	controlflow.Loop2()
+	controlflow.Loop3()
 }
